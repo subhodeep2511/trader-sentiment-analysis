@@ -1,5 +1,15 @@
 # Trader Performance vs Market Sentiment
 
+## Data Availability
+
+Due to GitHub file size limitations, the full Hyperliquid historical trades dataset is not included in this repository.
+
+It can be downloaded from:
+https://drive.google.com/file/d/1znoCgkpY5vCRJxux8OTNRth8kjjHQ2nq/view?usp=sharing
+
+After downloading, place the file at:
+data/trades.csv
+
 ## Overview
 This project analyzes how Bitcoin market sentiment (Fear & Greed Index) relates to trader behavior and performance on the Hyperliquid platform.
 
@@ -26,4 +36,5 @@ This project analyzes how Bitcoin market sentiment (Fear & Greed Index) relates 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 jupyter notebook notebooks/analysis.ipynb
+
     
